@@ -3,37 +3,6 @@
 
 html{
 
-	font-size: 20px;
-}
-
-video{
-
-	height: 600px;
-	width: 600px;
-
-	border: 1px solid #19a5cf;
-  padding: 1px;
-  border-radius: 20px 10px;
-
-
-}
-p{padding: 0px}
-#main_picture{
-
-
-	height: 600px;
-	width: 600px;
-	padding-right: 300px;
-}
-
-
-}
-
-@media (max-width:1199px){
-
-
-html{
-
 	font-size: 15px;
 }
 
@@ -42,15 +11,190 @@ html{
 
 	flex-direction: column;
 }
+video{
+
+height: 400px;
+width: 400px;
+
+brder: 1px solid #19a5cf;
+ padding: 1px;
+ border-radius: 20px 10px;
 
 
+}
 #main_picture{
 
 
 	height: 600px;
 	width: 600px;
-	
-}
-p{padding: 0px}
+	padding-left: 100px;
+
 }
 
+
+
+p{padding: 0px}
+
+
+.wrapper {
+  display: none;
+  position: absolute;
+  left: 90%;
+  top: 70%;
+  transform: scale(1.5, 1.5) translate(-50%, -50%);
+}
+main {
+    padding-top: 4rem;
+    height: 103vh;
+}
+
+ul {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    list-style-type: none;
+}
+
+.flex-container1 {
+    background-color: #19a5cf;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.CA {
+    font-size: 25px;
+    color: white;
+    padding-left: 10rem;
+}
+
+.flex-container1 {
+    background-color: #19a5cf;
+    padding: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+}
+
+
+@media(max-width: 767px) {
+
+html{
+
+	font-size: 10px;
+}
+
+.flex-container{
+
+
+	flex-direction: column;
+}
+
+#main_picture{
+
+
+	height: 400px;
+	width: 400px;
+	padding-left: 300px;
+	
+}
+video{
+
+	height: 300px;
+	width: 300px;
+
+	border: 1px solid #19a5cf;
+  padding: 1px;
+  border-radius: 20px 10px;
+
+
+}
+main {
+    padding-top: 4rem;
+    height: 103vh;
+}
+
+}
+
+
+
+
+
+@media(max-width: 425px) {
+
+
+main {
+    padding-top: 4rem;
+    height: 85vh;
+}
+
+video{
+
+	height: 300px;
+	width: 300px;
+
+border: 1px solid #19a5cf;
+ padding: 1px;
+ border-radius: 20px 10px;
+
+
+}
+
+#main_picture{
+
+
+	height: 400px;
+	width: 400px;
+	padding-left: 0vh;
+	
+}
+
+.text-color {
+    text-align: left;
+    color: #19a5cf;
+    font-family: Honk;
+    margin: 2rem;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+
+
+}
+
+
+
+@media(max-width: 376px) {
+
+
+li a{
+
+	font-size: 20px;
+}
+.text-color {
+    text-align: left;
+    color: #19a5cf;
+    font-family: Honk;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+
+.text-color {
+    text-align: left;
+    color: #19a5cf;
+    font-family: Honk;
+    margin: 2rem;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+
+}
