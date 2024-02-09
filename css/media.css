@@ -1,0 +1,56 @@
+@media (max-width:1199px){
+
+
+html{
+
+	font-size: 20px;
+}
+
+video{
+
+	height: 600px;
+	width: 600px;
+
+	border: 1px solid #19a5cf;
+  padding: 1px;
+  border-radius: 20px 10px;
+
+
+}
+p{padding: 0px}
+#main_picture{
+
+
+	height: 600px;
+	width: 600px;
+	padding-right: 300px;
+}
+
+
+}
+
+@media (max-width:1199px){
+
+
+html{
+
+	font-size: 15px;
+}
+
+.flex-container{
+
+
+	flex-direction: column;
+}
+
+
+#main_picture{
+
+
+	height: 600px;
+	width: 600px;
+	
+}
+p{padding: 0px}
+}
+
