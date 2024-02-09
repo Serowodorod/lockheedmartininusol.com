@@ -50,6 +50,7 @@ background-color: #19a5cf;
 .text-color{
     text-align: left;
     color: #19a5cf;
+    font-family: Honk;
  
    margin: 2rem;
     font-size: 3rem;
@@ -742,11 +743,19 @@ body {
     -webkit-transform: rotate(135deg) translate(-80%, 20%);
   }
 }
+.animation:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(0.5);
+  transform: scale(1.2);
 
+
+}
 
 ul{
-
-
+  height: inherit;
+  display: flex;
+justify-content: space-between;
+align-items: end;
   list-style-type:  none;
 
 }
