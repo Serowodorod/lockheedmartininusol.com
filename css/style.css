@@ -37,7 +37,7 @@ color: #19a5cf;
 
 .CA{
 font-size: 30px;color: white;padding-right: 200px;
-  
+
 }
 #girl{
   height: 400px;
@@ -74,6 +74,9 @@ background-color: #19a5cf;
         opacity: 1;
     }
 }
+
+
+
 .main-navbar {
 background-color:#19a5cf;
 text-align: right;
@@ -208,7 +211,7 @@ justify-content: space-between;
 
 p{
 
-    font-family:fantasy;
+    font-family:Honk;
 }
 
 .flex-container1{
@@ -246,12 +249,11 @@ list-style-type: none;
 
 
 
-
-
+/*
 body {
   background-color: white;
   animation: change-background 3s infinite linear;
-}
+}*/
 
 .wrapper {
 
