@@ -9,6 +9,8 @@ html{
 .flex-container{
 
 
+    padding-top: 0rem;
+  
 	flex-direction: column;
 }
 video{
