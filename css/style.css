@@ -4,15 +4,7 @@ margin: 0rem;
 
 }
 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster+Two|Lemonada:700|Neucha|Oswald');
-@font-face {
-  
-  font-family: "Universe85"; 
-  // адрес шрифта и тип 
-  src: url("../css/Univers 85 Extra Black Oblique.otf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+
 html{
     scroll-behavior: smooth;
 }
