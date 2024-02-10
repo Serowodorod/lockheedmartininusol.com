@@ -80,11 +80,11 @@ ul {
     width: 100%;
     flex-wrap: wrap;
 }
-	ul{
+
+ul{
 
 	padding-right: 30rem;
 }
-
 
 }
 
@@ -170,13 +170,18 @@ border: 1px solid #19a5cf;
     margin-top: 50px;
 }
 
+.CA {
+    font-size: 27px;
+    color: white;
+    padding-left: 20rem;
+}
 
 
 }
 
 
 
-@media(max-width: 376px) {
+@media(max-width: 376px),screen and (max-height: 700px) {
 
 
 li a{
@@ -201,5 +206,8 @@ li a{
     margin-top: 50px;
 }
 
-
+main {
+    padding-top: 4rem;
+    height: 92vh;
+}
 }
