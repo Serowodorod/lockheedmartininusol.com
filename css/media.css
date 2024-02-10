@@ -80,6 +80,11 @@ ul {
     width: 100%;
     flex-wrap: wrap;
 }
+	ul{
+
+	padding-right: 30rem;
+}
+
 
 }
 
