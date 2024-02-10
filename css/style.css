@@ -47,10 +47,12 @@ background-color: #19a5cf;
     text-align: left;
     color: #19a5cf;
     font-family: Honk;
- 
+    font-weight: 400;
+    font-style: italic;
    margin: 2rem;
     font-size: 3rem;
 }
+
 .text-color {
     animation: blink 1s;
     animation-iteration-count: infinite;
@@ -205,6 +207,8 @@ justify-content: space-between;
 p{
 
     font-family:Honk;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .flex-container1{
