@@ -45,12 +45,13 @@ background-color: #19a5cf;
 
 .text-color{
     text-align: left;
-    color: #19a5cf;
+    color: yellow;
     font-family: Honk;
     font-weight: 400;
     font-style: italic;
    margin: 2rem;
     font-size: 3rem;
+    
 }
 
 .text-color {
@@ -209,7 +210,9 @@ p{
     font-family:Honk;
     font-weight: 400;
     font-style: italic;
+    color: yellow;
 }
+
 
 .flex-container1{
 background-color:#19a5cf;
