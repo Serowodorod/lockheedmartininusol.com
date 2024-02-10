@@ -24,15 +24,11 @@ brder: 1px solid #19a5cf;
 
 
 }
-#main_picture{
-
-
-	height: 600px;
-	width: 600px;
-	padding-left: 100px;
-
+#main_picture {
+    height: 600px;
+    width: 600px;
+    padding-left: 0;
 }
-
 
 
 p{padding: 0px}
