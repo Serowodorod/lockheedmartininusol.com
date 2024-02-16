@@ -184,7 +184,7 @@ body {
     }
 }
 
-.light {
+.light{
   width: 10px;
   height: 10px;
   background: red;
@@ -195,7 +195,7 @@ body {
   left: 20px;
   animation: light 800ms ease-in-out 0s infinite alternate;
 }
-.cloud {
+.cloud{
   position: absolute;
   top: 0px;
   right: -500px;
@@ -203,11 +203,11 @@ body {
   animation: cloud 10s linear 0s infinite reverse;
   z-index: 99;
 }
-@keyframes light {
+@keyframes light{
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
-@keyframes cloud {
+@keyframes cloud{
   from {right:-500px;}
   to {right: 102%;}
 }
