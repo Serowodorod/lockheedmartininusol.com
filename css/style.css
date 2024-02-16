@@ -189,7 +189,7 @@ body {
   height: 10px;
   background: red;
   border-radius: 50%;
-     bottom: 295px;
+  bottom: 295px;
   position: absolute;
   z-index: 10;
   left: 20px;
@@ -200,7 +200,7 @@ body {
   top: 0px;
   right: -500px;
   opacity: .8;
-   animation: cloud 10s linear 0s infinite reverse;
+  animation: cloud 10s linear 0s infinite reverse;
   z-index: 99;
 }
 @keyframes light {
